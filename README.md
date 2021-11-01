@@ -8,3 +8,6 @@ Bayes dicidion rule choose the class such that the posteior probability is large
 Posterior = (C<sub>i</sub>|**X**)
 
 This can be re-written as (**X**,C<sub>i</sub>)/p(**X**)
+
+When it comes to comparing the higher probability of class member ship, p(**X**) doesn't need to be considered. 
+Thus, the focus of issue will be compressed into a joint probability
