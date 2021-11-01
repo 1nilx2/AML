@@ -19,4 +19,5 @@ Adopting Naive Bayes Approach
 
  - it assumes conditional independence: Given a class, attirubte of **X** is independent.
  - P(X|Y,Z) = P(X|Z)
- - P(**X**|C<sub>j</sub>) = P(x<sub>1</sub>|C<sub>j</sub>)*P(x<sub>2</sub>|C<sub>j</sub>)*...*P(x<sub>d</sub>|C<sub>j</sub>)
+ - P(**X**|C<sub>j</sub>) = P(x<sub>1</sub>|C<sub>j</sub>)*P(x<sub>2</sub>|C<sub>j</sub>)...P(x<sub>d</sub>|C<sub>j</sub>)
+ - From multi-dimension to multiple **1-dimension**
