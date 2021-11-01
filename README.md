@@ -10,4 +10,13 @@ Posterior = (C<sub>i</sub>|**X**)
           = (**X**|C<sub>i</sub>)*p(C<sub>i</sub>)/p(**X**)
 
 When it comes to comparing the higher probability of class member ship, p(**X**) doesn't need to be considered. 
-Thus, the focus of issue will be compressed into a joint probability
+Thus, the issue will be compressed into a joint probability
+
+How to estimate the joint probabilities for each class?
+ there can be issue related to high dimensionality and interacting variables.
+ 
+Adopting Naive Bayes Approach
+
+ - it assumes conditional independence: Given a class, attirubte of **X** is independent.
+ - P(X|Y,Z) = P(X|Z)
+ - P(**X**|C<sub>j</sub>) = P(x<sub>1</sub>|C<sub>j</sub>)*P(x<sub>2</sub>|C<sub>j</sub>)*...*P(x<sub>d</sub>|C<sub>j</sub>)
