@@ -4,10 +4,25 @@ Based on the slide from Prof.Gosh at UT Austin
 
 ## 6-1
 
-### Decision Trees
+### Decision Trees (DT)
 
-- Before conducting analysis, Let's see the pairwise scatte plots among the features
+- Before conducting analysis, Let's see the pairwise scatter plot among the features
 
+DT is a hierarchical classifier since it breaks down complex decision into series of simple decisions. 
+
+Let's assume that we already know the shape of DT
+How the split points are determined?
+
+Error rate is not satisfactory. 
+We adopt index which is able to measure the '(im)purity' 
+ - ex) Gini, Entropy, Chi-squared
+
+Get the tree grown. Is that all?
+We have grown a large tree which is too specific. 
+How to contorl the size
+ - greedly selecting split is myopic, which does not allow the split at which classification error is not improved
+ - Since we do not know the impact of the combination of splits, we need sometihng to deal with this. 
+ - Grow and Prune, thus, has been suggested. 
 
 ## 6-2
 Classification Methods
