@@ -1,7 +1,27 @@
 # AML
 Advanced Machine Learning
+Based on the slide from Prof.Gosh at UT Austin
 
-Bayesian Decision Rule
+6-2
+Classification Methods
+
+1. Focus just on Class Boundaries
+  - Decision trees
+  - Support Vector Machines
+
+2. Approximate Bayes Decision Rule (model the posterior)
+  - Logistic Regression
+  - Feedforward Neural Networks, including deep learning
+    (In the case of universal and using as loss function MSE or cross-entropy)
+  - K-Nearest-Neighbor
+ 
+3. Approximate Bayes Decision Rule (model the likelihood)
+  - LDA/QDA
+  - Fisher's linear discriminant
+  - Naive Bayes
+  - Bayesian Belief Networks
+ 
+ ## Revisit Bayesian Decision Rule
 
 Given the X vector (dimension of D), 
 Bayes dicidion rule choose the class such that the posteior probability is largest with the class. 
