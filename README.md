@@ -2,7 +2,14 @@
 Advanced Machine Learning
 Based on the slide from Prof.Gosh at UT Austin
 
-6-2
+## 6-1
+
+### Decision Trees
+
+- Before conducting analysis, Let's see the pairwise scatte plots among the features
+
+
+## 6-2
 Classification Methods
 
 1. Focus just on Class Boundaries
@@ -21,7 +28,7 @@ Classification Methods
   - Naive Bayes
   - Bayesian Belief Networks
  
- ## Revisit Bayesian Decision Rule
+ ### Revisit Bayesian Decision Rule
 
 Given the X vector (dimension of D), 
 Bayes dicidion rule choose the class such that the posteior probability is largest with the class. 
