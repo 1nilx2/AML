@@ -16,7 +16,8 @@ How the split points are determined?
 Error rate is not satisfactory. 
 We adopt index which is able to measure the '(im)purity' 
  - ex) Gini, Entropy, Chi-squared
- - entropy: -Σp<sub>j</sub>logp<sub>j</sub>
+ - entropy: -Σp<sub>j</sub> log p<sub>j</sub>
+ - gini: 1-Σ p<sub>j</sub><sup>2</sup>
 Get the tree grown. Is that all?
 We have grown a large tree which is too specific. 
 How to contorl the size
