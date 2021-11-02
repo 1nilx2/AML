@@ -72,9 +72,16 @@ When it comes to comparing the higher probability of class member ship, p(**X**)
 Thus, the issue will be compressed into a joint probability
 
 How to estimate the joint probabilities for each class?
- there can be issue related to high dimensionality and interacting variables.
+there can be issue related to high dimensionality and interacting variables.
+Refer to 1) Naive Bayes 2) DAG
+
+### LDA (Linear Dscriminant Analysis)
+
+by Bayes' theorem, 
+
+ Pr(Y=k|X=x) = π<sub>k</sub>ƒ<sub>k</sub>(x) / Σ(l,K) π<sub>l</sub>ƒ<sub>l</sub>(x)
  
-Adopting Naive Bayes Approach
+### Naive Bayes Approach
 
  - it assumes conditional independence: Given a class, attirubte of **X** is independent.
  - P(X|Y,Z) = P(X|Z)
