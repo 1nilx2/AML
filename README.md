@@ -17,13 +17,29 @@ Error rate is not satisfactory.
 We adopt index which is able to measure the '(im)purity' 
  - ex) Gini, Entropy, Chi-squared
  - entropy: -Σp<sub>j</sub> log p<sub>j</sub>
- - gini: 1-Σ p<sub>j</sub><sup>2</sup>
+ - gini: 1-Σ p<sub>j</sub><sup>2</sup>  
+ 
 Get the tree grown. Is that all?
 We have grown a large tree which is too specific. 
 How to contorl the size
  - greedly selecting split is myopic, which does not allow the split at which classification error is not improved
  - Since we do not know the impact of the combination of splits, we need sometihng to deal with this. 
  - Grow and Prune, thus, has been suggested. 
+
+DT Packagest
+ - C4.5 used in ML using entropy criterion. Maximize information gain
+ - CART in Scientific/Stats. Dafault is gini
+ - CHAID in MKT/Stats. uses Chi-sq
+
+Evaluation of DTs
+ - (+) simple, intuitive, often fast, explainable
+ - (+) feature selection (pruning process includes the penaly term similar with that of Lasso)
+ - (+) can handle missing values. 
+
+ - (-) often poorer performance 
+ - (-) problem with complex decision boundaries (beyond just non-linear)
+ - high variety (consider ensembles)
+
 
 ## 6-2
 Classification Methods
