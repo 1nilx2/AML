@@ -88,4 +88,4 @@ by Bayes' theorem,
  - P(**X**|C<sub>j</sub>) = P(x<sub>1</sub>|C<sub>j</sub>)*P(x<sub>2</sub>|C<sub>j</sub>)...P(x<sub>d</sub>|C<sub>j</sub>)
  - From multi-dimension to multiple **1-dimension**
 
-$jun_s$
+$$jun_s$$
