@@ -2,6 +2,28 @@
 Advanced Machine Learning
 Based on the slide from Prof.Gosh at UT Austin
 
+## 2A apa regression
+
+Function Approximation
+
+1. Parametric model
+ - Set the sahpe and number of parameters(X)
+ - determine weights
+ - Generally can be said linear combination of basis functions
+ - <img src="https://latex.codecogs.com/svg.image?f(x)=y(x,\mathbf{w})=\mathbf{w^T\Phi&space;(x)}" title="f(x)=y(x,\mathbf{w})=\mathbf{w^T\Phi (x)}" />
+
+2. Assumptions
+ - Expected value of T is linear in phi
+ - All distributions around the expected values are assumed to be i.i.d zero mean Gaussian with constant variance
+
+3.1. How can I verify the assumption
+ - see the residuals  
+
+3.2. What is the result of the assumption
+- find the solution minimizing MSE on the training data yields the Maximum Likelihood Estimate(MLE) of the assumed generative model.
+
+4. After fitting
+ Interpretation of the partial derivative > exclude collinearity
 
 ## 6-1
 
