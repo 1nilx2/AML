@@ -6,24 +6,45 @@ Based on the slide from Prof.Gosh at UT Austin
 
 Function Approximation
 
-1. Parametric model
+### Parametric model
  - Set the sahpe and number of parameters(X)
  - determine weights
  - Generally can be said linear combination of basis functions
  - <img src="https://latex.codecogs.com/svg.image?f(x)=y(x,\mathbf{w})=\mathbf{w^T\Phi&space;(x)}" title="f(x)=y(x,\mathbf{w})=\mathbf{w^T\Phi (x)}" />
 
-2. Assumptions
+Assumptions
  - Expected value of T is linear in phi
  - All distributions around the expected values are assumed to be i.i.d zero mean Gaussian with constant variance
 
-3.1. How can I verify the assumption
+How can I verify the assumption
  - see the residuals  
 
-3.2. What is the result of the assumption
+What is the result of the assumption
 - find the solution minimizing MSE on the training data yields the Maximum Likelihood Estimate(MLE) of the assumed generative model.
 
-4. After fitting
+After fitting
  Interpretation of the partial derivative > exclude collinearity
+
+### OLS
+ - given the loss function of SSE, minimize it
+ - In case of simple regression, closed form solution does exist
+ - In case of non-linear, other methods such as MLP, gradient descent, and SGD
+
+### Polynomial Curve Fitting
+ - What matters is model complexity and the size of the data
+ - Additional approaches using penalty term do exists. ex) Ridge, Lasso, ElasticNet
+ - With higher order, the concern on over-fitting arises but this can be alleviated with more data
+
+### Evaluate a Regression Model
+- RMSE, R-squared, adj-R
+- Matter of 'Bias-Variance Dilemma'
+- Change model type > affects bias
+- Change the amount of data > variance
+- As the last choice, change the feature dimension/space.
+
+## 2mlr-short
+
+
 
 ## 6-1
 
