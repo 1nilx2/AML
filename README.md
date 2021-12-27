@@ -59,6 +59,20 @@ After fitting
   > cost function is not quadratic and, in general, non-convex
   > iterative updated is required!  
 
+#### Gradient Descent 
+  Continuous updated of weights (betas) following the curve of the cost function E(w)
+  Learning Rate controls the speed of convergence
+   - too small: slow convergence
+   - too large: unstable/diverge
+   * if convergence is required, consider adaptive learning rate
+
+#### Stochastic Gradient Descent (SGD)
+  On-line version: usually, converging to a point does not need to be ensured
+  What SGD?
+   - Better for large data sets
+   - Often faster than plain/batch gradient descent
+   - **Less prone to local minima**, thus can be applied to complex loss function
+   - Work well on streaming settings
 
 
 ## 6-1
