@@ -42,7 +42,22 @@ After fitting
 - Change the amount of data > variance
 - As the last choice, change the feature dimension/space.
 
-## 2mlr-short
+## SGD-MLP
+
+### Regression model
+
+ - Linear VS Non-linear
+ - almost linear: additive models, piecewise linear...
+ - nonlinear
+    - linear in fixed transform space (Plynomial, Fourier, Gabor)
+    - general non-linear > feedforward neural networks(MLP)
+
+#### how to learn weights?
+ - linear
+  direct solution / one step using Newton's root finding / Iterative 
+ - non-linear
+  cost function is not quadratic and, in general, non-convex
+  iterative updated is required!  
 
 
 
