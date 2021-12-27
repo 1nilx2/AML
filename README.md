@@ -56,8 +56,8 @@ After fitting
  - linear
   direct solution / one step using Newton's root finding / Iterative 
  - non-linear
-  cost function is not quadratic and, in general, non-convex
-  iterative updated is required!  
+  - cost function is not quadratic and, in general, non-convex
+  - iterative updated is required!  
 
 
 
