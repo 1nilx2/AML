@@ -52,21 +52,21 @@ After fitting
     - linear in fixed transform space (Plynomial, Fourier, Gabor)
     - general non-linear > feedforward neural networks(MLP)
 
-#### how to learn weights?
+### how to learn weights?
  - linear
   > direct solution / one step using Newton's root finding / Iterative 
  - non-linear
   > cost function is not quadratic and, in general, non-convex
   > iterative updated is required!  
 
-#### Gradient Descent 
+### Gradient Descent 
   Continuous updated of weights (betas) following the curve of the cost function E(w)
   Learning Rate controls the speed of convergence
    - too small: slow convergence
    - too large: unstable/diverge
    * if convergence is required, consider adaptive learning rate
 
-#### Stochastic Gradient Descent (SGD)
+### Stochastic Gradient Descent (SGD)
   On-line version: usually, converging to a point does not need to be ensured
   
   Why SGD?
@@ -74,6 +74,25 @@ After fitting
    - Often faster than plain/batch gradient descent
    - **Less prone to local minima**, thus can be applied to complex loss function
    - Work well on streaming settings
+
+### Multi-Layered Perceptrons (MLP)
+  most popular before deep learning (or DNN, Deep Nueral Network). MLP conducts feedforward only while DNN can loop.
+
+#### Learning via Error Backpropagation
+  1. pass forward
+  2. calculate error comparing with the desired output
+  3. backward pass: compute gradients of weights w.r.t. loss and update all the weights.
+
+#### Design Paramets
+ 1. '# of hidden units/nodes 
+  - model complexity 
+ 2. '# of epochs/iterations: 
+  - how long do you train
+  - use a cross-validation to know when to stop
+ 3. Activation fuction
+ 4. Learning rate
+  - speed of training
+  - one can consider varying approaches like Momentum.
 
 
 ## 6-1
