@@ -97,6 +97,22 @@ After fitting
   - speed of training
   - one can consider varying approaches like Momentum.
 
+## Convolutional Neural Networks
+* referece: Introduction to CNN; Jianxin Wu; May 1, 2017
+
+### Notation
+  1. small bold: column vector
+  2. capital: matrix
+    ex) <img src="https://latex.codecogs.com/svg.image?X\in&space;\mathbb{R}^{H\times&space;W\times&space;D}" title="X\in \mathbb{R}^{H\times W\times D}" /> is a matrix with H rows, W columns, and D tensor(channel)
+  3. Tensor: useful in many aspects such as expressing colors by different tensors.
+
+### CNN in a nutshell
+
+ 1. Generally takes an order 3 tensor (R,G,B)
+ 
+
+
+
 
 ## 6-1
 
