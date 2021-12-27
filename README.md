@@ -68,7 +68,8 @@ After fitting
 
 #### Stochastic Gradient Descent (SGD)
   On-line version: usually, converging to a point does not need to be ensured
-  What SGD?
+  
+  Why SGD?
    - Better for large data sets
    - Often faster than plain/batch gradient descent
    - **Less prone to local minima**, thus can be applied to complex loss function
