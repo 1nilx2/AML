@@ -2,6 +2,9 @@
 Advanced Machine Learning
 Based on the slide from Prof.Gosh at UT Austin
 
+# Project Link
+https://medium.com/@eacabrera3/real-time-sign-language-detection-system-e3d6cf49121a
+
 ## 2A apa regression
 
 Function Approximation
