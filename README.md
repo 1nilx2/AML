@@ -1,4 +1,4 @@
 # Welcome!
 
-<img width="80%" src="https://user-images.githubusercontent.com/88100984/147984340-3e910cbf-2f27-4a34-8ff4-84f34c5e5172.mov"/>
+<img width="80%" src="https://github.com/1nilx2/Mccombs/issues/1#issue-1092845283"/>
 
