@@ -111,7 +111,19 @@ After fitting
 
 ### CNN in a nutshell
 
- 1. Generally takes an order 3 tensor (R,G,B)
+ 1. The architecture
+  - A CNN usually takes an order 3 tensor (H*W*3)
+  - Input from an layers flows to the next layer which can be a convolution, pooling, normarization, fully connected, fully conncet, etc layer.
+  - x1 > w1 > x2 > w2 >...> xl > wl > z
+  - Usually xl is a C-dimensional vector whose i-th entry encodes the posterior probability of x1 comes from the i-th class. 
+  - for this, (l-1)th layer used to adopt softmax transformation 
+  - find the discrepancy between xl and target value t. If it's a simple loss function, it becomes a half of squared-error.
+ 
+ 2. Stochastic gradient descent(SGD)
+  What can be the method for minizming loss. One of the potential winner is the SGD. Based on the idea that loss can be minimized when the gradient of the loss function is closed to zero and that batch gradient method has a difficulty in overcoming local-minima, SGD has been arised. the weight for j-th feature will be updated by <img src="https://latex.codecogs.com/svg.image?w^{i}=w^{i}-\eta&space;\frac{\partial&space;z}{\partial&space;w^{i}}&space;" title="w^{i}=w^{i}-\eta \frac{\partial z}{\partial w^{i}} " /> . Varying the way of optimizing the loss, spin-offs can be made such as Momentum, ADAM etc. 
+  
+ 3. Using a sequence of the partial derivatives, we can do backward propagate the error with reasonable computation resources. This is called Error back propagation.
+   
  
 
 
