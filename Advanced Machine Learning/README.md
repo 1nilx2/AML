@@ -103,6 +103,9 @@ After fitting
 ## Convolutional Neural Networks
 * referece: Introduction to CNN; Jianxin Wu; May 1, 2017
 
+### Simple words
+ - Feature detection > add non-linearity (reflect reality) > compress info > full connect > make it probability
+
 ### Notation
   1. small bold: column vector
   2. capital: matrix
