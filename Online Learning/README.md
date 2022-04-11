@@ -31,4 +31,6 @@
 ### Model
 Let {X<sub>i</sub>, i=1,2,...} sequence of iid 1-subGaussian RV, and τ as a RV
 
-Then <img src="https://latex.codecogs.com/svg.image?P\Bigg(|\sum_{i=1}^\tau&space;X_i&space;|&space;>&space;\sqrt{2&space;\tau&space;(2log\tau&space;&plus;&space;log(1&space;\backslash&space;\delta)}\Bigg)&space;\leqq&space;\delta"/>
+<img src="https://latex.codecogs.com/svg.image?P\Bigg(|\sum_{i=1}^\tau&space;X_i&space;|&space;>&space;\sqrt{2&space;\tau&space;(2log\tau&space;&plus;&space;log(1&space;\backslash&space;\delta)}\Bigg)&space;\leqq&space;\frac{\pi^2}{3}&space;\delta">
+
+
