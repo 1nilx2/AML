@@ -31,4 +31,4 @@
 ### Model
 Let {X<sub>i</sub>, i=1,2,...} sequence of iid 1-subGaussian RV, and τ as a RV
 
-Then P(<img src="https://render.githubusercontent.com/render/math?math= P(|\sum_{i=1}^τX_i> |  )  ">)
+Then P(<img src="https://render.githubusercontent.com/render/math?math= P(|\sum_{i=1}^τX_i>|)">)
