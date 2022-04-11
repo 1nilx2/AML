@@ -14,3 +14,5 @@
  - ε-Greedy: Samples for exploration are separated from exploitation
              Δ is known, n is arbitrary
  - Elimination: In each phase, # of samples per remaining arms is <ins>predetermined</ins>
+                Δ unknown, n is fixed
+[All the algorithms above] separate samples for exploration from exploitation
