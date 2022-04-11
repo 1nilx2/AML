@@ -31,4 +31,4 @@
 ### Model
 Let {X<sub>i</sub>, i=1,2,...} sequence of iid 1-subGaussian RV, and τ as a RV
 
-Then https://latex.codecogs.com/svg.image?P%5CBigg(%7C%5Csum_%7Bi=1%7D%5E%5Ctau%20X_i%20%7C%20%3E%20%5Csqrt%7B2%20%5Ctau%20(2log%5Ctau%20&plus;%20log(1%20%5Cbackslash%20%5Cdelta)%7D%5CBigg)%20%5Cleqq%20%5Cdelta
+Then "https://latex.codecogs.com/svg.image?P%5CBigg(%7C%5Csum_%7Bi=1%7D%5E%5Ctau%20X_i%20%7C%20%3E%20%5Csqrt%7B2%20%5Ctau%20(2log%5Ctau%20&plus;%20log(1%20%5Cbackslash%20%5Cdelta)%7D%5CBigg)%20%5Cleqq%20%5Cdelta"
