@@ -31,5 +31,4 @@
 ### Model
 Let {X<sub>i</sub>, i=1,2,...} sequence of iid 1-subGaussian RV, and σ as a RV
 
-Then P( ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
-  )
+Then P(<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">)
