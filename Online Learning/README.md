@@ -50,3 +50,11 @@ Compare to usual 1-subGaussian bound:
 <img src="https://latex.codecogs.com/svg.image?\inline&space;\large&space;\bigg(&space;\mathit{where,}&space;\;\;&space;\hat{\mu}_j(t-1)&space;=&space;\frac{1}{T_j(t-1)}&space;\sum_{s=1}^{t-1}&space;X_s&space;X_{\left\{&space;A_s=j&space;\right\}}&space;\bigg)&space;">
 
 <img src="https://latex.codecogs.com/svg.image?Also,\;&space;U_j(t-1,\delta)&space;=&space;\infty,&space;\;\;&space;if&space;\;\;&space;T_j(t-1)=0">
+
+This forces the player to play each arm at least once initially. 
+
+#### UCB algorithm:
+ <img src="https://latex.codecogs.com/svg.image?\mbox{at&space;each&space;time&space;t:&space;}&space;A_t=\arg&space;\max_{1\leqq&space;j&space;\leqq&space;k}&space;U_j(\mbox{t-1},\delta)">
+
+#### Intuition
+* consider the best arm (arm 1 with the highest true mean)
