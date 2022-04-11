@@ -47,4 +47,4 @@ Compare to usual 1-subGaussian bound:
 
 <img src="https://latex.codecogs.com/svg.image?\inline&space;U_j(t-1,\delta)&space;=&space;\mu_j(t-1)&space;&plus;&space;\sqrt{\frac{2\ln(1&space;\backslash&space;\delta)}{T_j(t-1)}&space;}"> 
 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;\large&space;\mathit{where,}&space;\;\;&space;\hat{\mu}_j(t-1)&space;=&space;\frac{1}{T_j(t-1)}&space;\sum_{s=1}^{t-1}&space;X_s&space;X_{\left\{&space;A_s=j&space;\right\}}&space;">
+<img src="https://latex.codecogs.com/svg.image?\inline&space;\large&space;\bigg(&space;\mathit{where,}&space;\;\;&space;\hat{\mu}_j(t-1)&space;=&space;\frac{1}{T_j(t-1)}&space;\sum_{s=1}^{t-1}&space;X_s&space;X_{\left\{&space;A_s=j&space;\right\}}&space;\bigg)&space;">
