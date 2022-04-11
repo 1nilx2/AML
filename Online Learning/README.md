@@ -45,4 +45,4 @@ Compare to usual 1-subGaussian bound:
 
 #### Setting: Unstructured Environment, K arms, reward: μ+1-subGaussian
 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;U_j(t-1,\delta)&space;=&space;\mu_j(t-1)&space;&plus;&space;\sqrt{\frac{2\ln(1&space;\backslash&space;\delta)}{T_j(t-1)}}>
+<img src="https://latex.codecogs.com/svg.image?\inline&space;U_j(t-1,\delta)&space;=&space;\mu_j(t-1)&space;&plus;&space;\sqrt{\frac{2\ln(1&space;\backslash&space;\delta)}{T_j(t-1)}&space;}"> 
