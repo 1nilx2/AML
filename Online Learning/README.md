@@ -16,4 +16,14 @@
  - Elimination: In each phase, # of samples per remaining arms is <ins>predetermined</ins>
                 Δ unknown, n is fixed
 
-#### [All the algorithms above] separate samples for exploration from exploitation
+#### All the algorithms above separate samples for exploration from exploitation
+
+### UCB for smoothing regret graph (Compared to the doubling trick)
+ - why is bad? 
+
+### Key Difference
+ - Number of samples for exploration for each arm is <ins>dynamic</ins>
+ - No separation between exploration/exploitation
+ - All samples contribute to imporve estimates
+
+* Technical Challenge: Empirical estimates of arm score bases updon random number of sample, so usual sub-Gaussian concentration do not hold.
