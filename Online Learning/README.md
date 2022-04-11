@@ -26,4 +26,10 @@
  - No separation between exploration/exploitation
  - All samples contribute to imporve estimates
 
-* Technical Challenge: Empirical estimates of arm score bases updon random number of sample, so usual sub-Gaussian concentration do not hold.
+* Technical Challenge: Empirical estimates of arm score bases updon random number of sample, so usual __sub-Gaussian concentration__ do not hold.
+
+### Model
+Let {X<sub>i</sub>, i=1,2,...} sequence of iid 1-subGaussian RV, and σ as a RV
+
+Then P( ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+  )
