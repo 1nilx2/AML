@@ -37,3 +37,12 @@ Let {X<sub>i</sub>, i=1,2,...} sequence of iid 1-subGaussian RV, and τ as a RV
 Compare to usual 1-subGaussian bound:
 
 <img src="https://latex.codecogs.com/svg.image?P\bigg(&space;\frac{1}{n}&space;\sum_{i=1}^n&space;X_i&space;>&space;\sqrt{\frac{2n\log(1\backslash\delta)}{n}}\bigg)&space;\leqq&space;\delta">
+
+### Principle of Optimism
+ - Bet on the uncertainty <=> Empirical mean + Bonus (dependent upon uncertainty)
+
+### UCB Case1. Unknown Δ, Known n
+
+#### Setting: Unstructured Environment, K arms, reward: μ+1-subGaussian
+
+<img src="https://latex.codecogs.com/svg.image?\inline&space;U_j(t-1,\delta)&space;=&space;\mu_j(t-1)&space;&plus;&space;\sqrt{\frac{2\ln(1&space;\backslash&space;\delta)}{T_j(t-1)}}>
