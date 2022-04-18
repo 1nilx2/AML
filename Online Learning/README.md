@@ -67,18 +67,20 @@ This forces the player to play each arm at least once initially.
 
 ### Algorithm
 
-Input: n,k,η
+1. **Input**: n,k,η
 
-<img src="https://latex.codecogs.com/svg.image?\widehat{S_{0i}}=0\;\textrm{for\;all\;}i">
+2. <img src="https://latex.codecogs.com/svg.image?\widehat{S_{0i}}=0\;\textrm{for\;all\;}i">
 
-<img src="https://latex.codecogs.com/svg.image?&space;\textbf{for}\;t=1,...,n\;\textrm{\textbf{do}}&space;">
+3. <img src="https://latex.codecogs.com/svg.image?&space;\textbf{for}\;t=1,...,n\;\textrm{\textbf{do}}&space;">
 
-<img src="https://latex.codecogs.com/svg.image?\textrm{Calculate\;the\;sampling\;distribution\;}P_t:">
+4. <img src="https://latex.codecogs.com/svg.image?\textrm{Calculate\;the\;sampling\;distribution\;}P_t:">
 
 <img src="https://latex.codecogs.com/svg.image?P_{ti}=\frac{exp\left&space;(\eta&space;\widehat{S}_{t-1,i}\right&space;)}{\sum_{j=1}^{k}exp\left(\eta&space;\widehat{S}_{t-1,j}\right)}">
 
-<img src="https://latex.codecogs.com/svg.image?Sample&space;\;&space;A_t\sim&space;P_t&space;\;&space;and&space;\;&space;observe&space;\;&space;reward&space;\;&space;X_t">
+5. <img src="https://latex.codecogs.com/svg.image?Sample&space;\;&space;A_t\sim&space;P_t&space;\;&space;and&space;\;&space;observe&space;\;&space;reward&space;\;&space;X_t">
 
-<img src="https://latex.codecogs.com/svg.image?Calculate&space;\;&space;\hat{S}_{ti}:">
+6. <img src="https://latex.codecogs.com/svg.image?Calculate&space;\;&space;\hat{S}_{ti}:">
 
 <img src="https://latex.codecogs.com/svg.image?\hat{S}_{ti}=\hat{S}_{t-1,i}&plus;1-\frac{\mathbb{I}\{A_t=i\}(1-X_t)}{P_{ti}}">
+
+7. **end for**
