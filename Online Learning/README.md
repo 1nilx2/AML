@@ -76,3 +76,5 @@ Input: n,k,η
 <img src="https://latex.codecogs.com/svg.image?\textrm{Calculate\;the\;sampling\;distribution\;}P_t:">
 
 <img src="https://latex.codecogs.com/svg.image?P_{ti}=\frac{exp\left&space;(\eta&space;\widehat{S}_{t-1,i}\right&space;)}{\sum_{j=1}^{k}exp\left(\eta&space;\widehat{S}_{t-1,j}\right)}">
+
+<img src="https://latex.codecogs.com/svg.image?Sample&space;\;&space;A_t~P_t&space;\;&space;and&space;\;&space;observe&space;\;&space;reward&space;\;&space;X_t&space;\\Calculate&space;\;&space;\hat{S}_{ti}:&space;\\\hat{S}_{ti}=\hat{S}_{t-1,i}&plus;1-\frac{\mathbb{I}\{A_t=i\}(1-X_t)}{P_{ti}}&space;">
