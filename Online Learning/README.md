@@ -58,3 +58,14 @@ This forces the player to play each arm at least once initially.
 
 #### Intuition
 * consider the best arm (arm 1 with the highest true mean)
+
+
+
+
+
+## EXP3 (Exponential-weight algorithm for Exploration and Exploitation)
+
+### Algorithm
+
+Input: n,k,η
+<img src="https://latex.codecogs.com/svg.image?\widehat{S_{0i}}=0\;\textrm{for\;all\;}i">
