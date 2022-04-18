@@ -63,15 +63,7 @@ This forces the player to play each arm at least once initially.
 # Adversarial Bandits
  - **Adversarial bandit** model abandons almost all the assumptions on how the rewards are generated
 
-\documentclass[10pt]{article}
-\usepackage[usenames]{color} %used for font color
-\usepackage{amssymb} %maths
-\usepackage{amsmath} %maths
-\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
-\begin{document}
-\begin{align*}\text{In each round, the learner chooses a distribution of the actions } \\
-P_t\in \mathcal{P}_{k-1} \text{\;and samples\;} A_t \text{\;from\;} P_t\end{align*}
-\end{document}
+![image](https://user-images.githubusercontent.com/88100984/163747062-ca28712b-7797-478f-9fcd-ef3e7591e9d7.png)
 
 ## EXP3 (Exponential-weight algorithm for Exploration and Exploitation)
 
