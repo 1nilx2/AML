@@ -68,4 +68,11 @@ This forces the player to play each arm at least once initially.
 ### Algorithm
 
 Input: n,k,η
+
 <img src="https://latex.codecogs.com/svg.image?\widehat{S_{0i}}=0\;\textrm{for\;all\;}i">
+
+<img src="https://latex.codecogs.com/svg.image?&space;\textbf{for}\;t=1,...,n\;\textrm{\textbf{do}}&space;">
+
+<img src="https://latex.codecogs.com/svg.image?\textrm{Calculate\;the\;sampling\;distribution\;}P_t:">
+
+<img src="https://latex.codecogs.com/svg.image?P_{ti}=\frac{exp\left&space;(\eta&space;\widehat{S}_{t-1,i}\right&space;)}{\sum_{j=1}^{k}exp\left(\eta&space;\widehat{S}_{t-1,j}\right)}">
