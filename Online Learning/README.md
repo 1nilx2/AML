@@ -63,7 +63,7 @@ This forces the player to play each arm at least once initially.
 # Adversarial Bandits
  - **Adversarial bandit** model abandons almost all the assumptions on how the rewards are generated
 
-![image](https://user-images.githubusercontent.com/88100984/163747105-69bf09d0-93d8-4170-b656-e1a9672c5334.png)
+![image](https://user-images.githubusercontent.com/88100984/163747153-cdf4d35d-e5e3-4070-80da-3a3a5e1948a9.png)
 
 ## EXP3 (Exponential-weight algorithm for Exploration and Exploitation)
 
