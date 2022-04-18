@@ -60,7 +60,8 @@ This forces the player to play each arm at least once initially.
 * consider the best arm (arm 1 with the highest true mean)
 
 
-
+# Adversarial Bandits
+ - **Adversarial bandit** model abandons almost all the assumptions on how the rewards are generated
 
 
 ## EXP3 (Exponential-weight algorithm for Exploration and Exploitation)
