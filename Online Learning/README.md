@@ -89,3 +89,18 @@ This forces the player to play each arm at least once initially.
 </p>
  
 7. **end for**
+
+
+
+## Thompson Sampling (=posterior sampling)
+
+### Idea
+
+Before game starts, the learner chooses a **prior** over a set of possible options (bandit environment)
+In each round, the learner samples an environment from the **posterior** and act according to the optimal action in that environment. 
+
+Exploration in Thompson sampling comes from 'randomisation'
+ - if posterior is poorly concentrated, then the fluctuation in the samples are expected to be large and the policy will likely explore
+ - As the exploration proceeds, the posterior concentrates toward the true environment (law of large number and CLT?)
+ - Which is equivalent to rate of exploration decreases.
+ - We have focused on finite-armed stochastic bandits and linear bandits, but Thompson sampling has been extended to all kinds of models. 
