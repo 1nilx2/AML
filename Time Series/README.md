@@ -29,3 +29,34 @@ Choose the predictor that adds the most R^2 (incremental)
  - In general, we set the entry p-value criteria as 0.05
 
 
+#### Backward Stepwise
+##### Procedure
+Starts with the model that contains all predictors
+Kicks out the predictor which reduces the least amount of R^2 
+<=> eliminate the least important variable in explaning the variability of the dependent.
+
+##### Characteristics
+ - Greedy, as forward does
+ - Backward and Forward do not necessariliy result in same model. 
+ - Backward prefers **Explanatory Power** over Parsimony
+
+#### (Regular) Stepwise
+It is a mixture of forward and backward
+
+##### Procedure
+Starts with single models and follows the flow of the Forward's 
+However, if p-value of an existant predictor increase over a threshold, usually 0.10, due to the inclusion of new predictor, 
+that predictor having low significance will be dropped. 
+
+
+#### n/p ratio
+n = the number of observation
+p = the number of predictors 
+
+Usually the ratio lower than 5 is considered bad, because it is likely to cause overfitting.
+The ratio higher than 15 (or 10 sometimes) is considered good, meaning model has parsimony
+
+##### Role of Stepwise
+In this context, Stepwise Regression plays a role of balancing the explanatory power and parsimony. 
+In more detail, by retaining the predictors having high significance only and by removing less siginificant features, 
+Stepwise helps to maintain decent n/p ratio at the little cost of explanatory power. 
