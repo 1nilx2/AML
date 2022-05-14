@@ -80,7 +80,7 @@ it implies that all variables are equally important in assessing similarity
 
 <img src="https://latex.codecogs.com/svg.image?\textbf{3)&space;Mahalanobis&space;distance}&space;=&space;\textbf{(X}_i-\textbf{X}_j\textbf{)'S}^{-1}\textbf{(X}_i-\textbf{X}_j\textbf{)}">
 
-where $x_ik$
+where x_ik
 
 
 
