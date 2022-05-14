@@ -21,7 +21,7 @@ Orthonormal Transformation means that new aixes will have unit vector length and
 <img src="https://latex.codecogs.com/svg.image?\mathbf{MM}^T=\mathbf{I}_P&space;">
 <img src="https://latex.codecogs.com/svg.image?\mathbf{M}^{-1}=\mathbf{M}^T&space;">
 <img src="https://latex.codecogs.com/svg.image?&space;\textrm{The&space;orthonormal&space;Transformation&space;of&space;}\mathbf{X}\textrm{&space;is&space;}\mathbf{XM}">
-<img src="https://latex.codecogs.com/svg.image?&space;\textrm{Unit&space;Length&space;of&space;Vector&space;}&space;\left\|&space;U&space;\right\|&space;=&space;1">
+<img src="https://latex.codecogs.com/svg.image?\textrm{Unit&space;Vector:&space;}\left\|U\right\|=\sqrt{v_1^2&plus;v_2^2&plus;...&plus;v_n^2}=1"> 
 <img src="https://latex.codecogs.com/svg.image?&space;\textrm{Orthogonal&space;Vectors:&space;}&space;\textbf{u}\cdot\textbf{v}=0">
 
 
