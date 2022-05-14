@@ -85,6 +85,31 @@ where <img src="https://latex.codecogs.com/svg.image?x_{ik}"> is the score of ca
 In addition to the problems mentioned in Correlation Coefficients, distance measures are strongly affected by the scale of variables
 Therefore, it is standard practice to standardize variables prior to calculating distance measures used as (dis)similarities.
 
+### Clustering Methods
+
+#### Hierarchical Agglomerative
+These are the most-used clustering methods. They all begin with each case in its own cluster and proceed to join cases
+There are n steps. At the end, the history of the joining can be displayed as a **TREE**
+The height of the tree indicates the degree of (dis)similarity
+
+##### Linkage Methods
+1) Single Linkage (Nearest Neighbor): The similarity between new cluster and a remaining entity is defined to be the similarity between the entity and any member of the new cluster.
+2) Complete Linkage (Farthest Neighbor): Like single linkage, except that similarity is the distance between the farthest members of two entities.
+3) Average Linkage(Average Neighbor)
+4) Ward's Method: Clusters are joined that result in the least increase in the within-cluster variance
+<img src="https://latex.codecogs.com/svg.image?\sum_{k=1}^{p}\sum_{i=1}^{c}\sum_{l=1}^{n_i}(X_{ikl}-\overline{X}_{ik\cdot})^2&space;">
+Observation l on variable k in cluster i
+5) Centroid Method
+6) Density Linkage
+
+#### Non-Hierarchical Methods: Iterative Partitioning
+These methods begin by dividing the cases into a number of **preliminary clusters**.
+The centroids of the preliminary clusters are computed and become the 'seeds'. The cases assigned to the ame seed constitute a new cluster. This process continues until no case changes cluster membership. The most well-known used of these methods is **k-means clustering**
+
+##### K-means clustering
+The objective is to partition the data into a given number of clusters in such a way that Within-cluster sum-of-squares(WSS) is minimized
+In its objective, K-means resembles Ward's method. Both methods seek to minimize the WSS. However, Ward's operates hierarchically and agglomeratively, whereas K-means operates iteratively. 
+
 
 
 
