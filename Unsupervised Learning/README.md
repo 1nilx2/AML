@@ -80,7 +80,10 @@ it implies that all variables are equally important in assessing similarity
 
 <img src="https://latex.codecogs.com/svg.image?\textbf{3)&space;Mahalanobis&space;distance}&space;=&space;\textbf{(X}_i-\textbf{X}_j\textbf{)'S}^{-1}\textbf{(X}_i-\textbf{X}_j\textbf{)}">
 
-where x_ik
+where <img src="https://latex.codecogs.com/svg.image?x_{ik}"> is the score of case <img src="https://latex.codecogs.com/svg.image?i"> on variable <img src="https://latex.codecogs.com/svg.image?k,&space;\;&space;x_{jk}"> is the score of case <img src="https://latex.codecogs.com/svg.image?j"> on the variable k
+
+In addition to the problems mentioned in Correlation Coefficients, distance measures are strongly affected by the scale of variables
+Therefore, it is standard practice to standardize variables prior to calculating distance measures used as (dis)similarities.
 
 
 
