@@ -16,6 +16,8 @@ Implementing PCA, we could find different coordinate system that allows us to se
 But, we need to make sure that all or as much geometry of original data will be preserved. 
 What makes this possible is Orthonormal Transformation and Variance Maximization. 
 
+**Standardize before PCA!
+
 Orthonormal Transformation means that new aixes will have unit vector length and uncorrelated with each other. 
 
 <img src="https://latex.codecogs.com/svg.image?\mathbf{MM}^T=\mathbf{I}_P&space;">
