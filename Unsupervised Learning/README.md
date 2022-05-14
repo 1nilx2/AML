@@ -24,6 +24,8 @@ Orthonormal Transformation means that new aixes will have unit vector length and
 <img src="https://latex.codecogs.com/svg.image?\textrm{Unit&space;Vector:&space;}\left\|U\right\|=\sqrt{v_1^2&plus;v_2^2&plus;...&plus;v_n^2}=1"> 
 <img src="https://latex.codecogs.com/svg.image?&space;\textrm{Orthogonal&space;Vectors:&space;}&space;\textbf{u}\cdot\textbf{v}=0">
 
+<img src="https://latex.codecogs.com/svg.image?\textbf{EigenValue:&space;Sum&space;of&space;Squared&space;Loadings&space;=&space;}\left\|\boldsymbol{u}\right\|^2">
+
 
 ## Cluster Analysis
 
