@@ -1,5 +1,19 @@
 # Time Series
 
+## Random Samples
+
+### Why Random Samples
+ - Some time series are Random Sample
+ - Other times series models have RS hidden inside them
+ - The rules for forecasting/explaining of TS depend upon how the RS is hidden inside. 
+
+### Specifications
+ - i.i.d. distribution of Y
+ - identical distribution can be represented by Level and Homoscedasticity
+ - independent means zero autocorrelation(I)
+
+
+
 ## Model Building
 
 ### Model Building Desiderata
