@@ -20,7 +20,9 @@ What makes this possible is Orthonormal Transformation and Variance Maximization
 
 Orthonormal Transformation means that new aixes will have unit vector length and uncorrelated with each other. 
 <img src="https://latex.codecogs.com/svg.image?&space;\textrm{The&space;orthonormal&space;Transformation&space;of&space;}\mathbf{X}\textrm{&space;is&space;}\mathbf{XM}">
+
 <img src="https://latex.codecogs.com/svg.image?\textrm{Unit&space;Vector:&space;}\left\|U\right\|=\sqrt{v_1^2&plus;v_2^2&plus;...&plus;v_n^2}=1"> 
+
 <img src="https://latex.codecogs.com/svg.image?&space;\textrm{Orthogonal&space;Vectors:&space;}&space;\textbf{u}\cdot\textbf{v}=0">
 
 
