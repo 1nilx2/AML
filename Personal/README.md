@@ -3,7 +3,7 @@
 ## AdaBoosting
 p.364, HTF
 
-Sequantial Learning of weak classifiers with various weights dependent upon its error rate.\\
+Sequantial Learning of weak classifiers with various weights dependent upon its error rate.<br/>
 Usually outperforms a single, hard learner. 
 
 ### Algorithm
