@@ -3,8 +3,10 @@
 ## AdaBoosting
 p.364, HTF
 
-Sequantial Learning of weak classifiers with various weights dependent upon its error rate.<br/>
-Usually outperforms a single, hard learner. 
+Sequantial Learning of weak classifiers with various weights dependent upon its error rate<br/>
+Usually outperforms a single, hard learner <br/>
+
+The loss function is similar to the (negative) binomial log-likelihood and this is shown to be more robust than squared or exponential loss
 
 ### Algorithm
 
